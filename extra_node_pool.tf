@@ -44,9 +44,9 @@ resource "azurerm_kubernetes_cluster_node_pool" "node_pool_create_before_destroy
     avm_git_commit           = "749123dd248895875cff37e4d921fa8013f4e05d"
     avm_git_file             = "extra_node_pool.tf"
     avm_git_last_modified_at = "2024-03-04 03:19:50"
-    avm_git_org              = "Azure"
+    avm_git_org              = "carrfa"
     avm_git_repo             = "terraform-azurerm-aks"
-    avm_yor_trace            = "748607c3-0dc1-4ae0-aa4d-f2845f943284"
+    avm_yor_trace            = "e8ecbffb-4305-4e1e-b55f-ffb4920dc616"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
   ultra_ssd_enabled = each.value.ultra_ssd_enabled
   vnet_subnet_id    = each.value.vnet_subnet_id
@@ -202,9 +202,9 @@ resource "azurerm_kubernetes_cluster_node_pool" "node_pool_create_after_destroy"
     avm_git_commit           = "6167ef652d1bc9d1cd9557d3dc101f8681302218"
     avm_git_file             = "extra_node_pool.tf"
     avm_git_last_modified_at = "2024-01-11 08:26:20"
-    avm_git_org              = "Azure"
+    avm_git_org              = "carrfa"
     avm_git_repo             = "terraform-azurerm-aks"
-    avm_yor_trace            = "f5cea28c-876d-4275-a4ec-d8b00c0d4556"
+    avm_yor_trace            = "c46fc6c1-1dba-41a9-bac6-7c6574b72b07"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
   ultra_ssd_enabled = each.value.ultra_ssd_enabled
   vnet_subnet_id    = each.value.vnet_subnet_id
